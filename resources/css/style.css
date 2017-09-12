@@ -22,7 +22,12 @@ p {
 }
 
 .hero {
-  background-image: image('./resources/images/the-flatiron-building.png');
+  background-image: url("../images/the-flatiron-building.png");
+  background-repeat:no-repeat;
+}
+
+.hero h2 {
+  color: white;
 }
 
 .menu {
